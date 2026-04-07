@@ -16,6 +16,3 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
-
-docker compose exec backend uv run python manage.py makemigrations polls
-        
